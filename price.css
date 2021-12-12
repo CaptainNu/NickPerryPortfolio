@@ -1,0 +1,131 @@
+body{
+    background-color: #272640 ;
+    display: flex;
+    color: burlywood;
+
+    
+}
+
+/* h1{
+    margin: 0 auto;
+    text-align: center;
+} */
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed' sans-serif;
+}
+
+.img-price{
+    margin-bottom: 0;
+    max-width:100%;
+    background-color: bisque;
+    border-radius: 15px;
+    /* width: 50px; */
+}
+
+.panel{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    height: 65%;
+    max-width: 900px;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+
+    /* this is setting the div that is class as panel and it setting the table for the to be styled in  */
+
+    /* to call a "class" you use a . */
+
+}
+
+.price-point{
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.price-point:last-child{
+    border-bottom:none;
+}
+
+
+.price-header{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.price-features{
+    margin: 50px 0 25px;
+    color: crimson;
+}
+
+.price-features-items{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px ;
+    line-height:1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+}
+
+.price-features-items:last-child{
+    border-bottom: 1px solid #e1f1ff;
+}
+
+
+.pricing-price{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.pricing-button{
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: cadetblue;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus{
+    background-color: chocolate;
+    color: white;
+}
+
+.pricing-button.is-featured{
+    background-color: brown;
+    color: white;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+    background-color: black;
+
+}
+
+@media(min-width: 900px){
+    .panel{
+        flex-direction: row;
+    }
+    .price-point{
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+
+    .price-point:last-child{
+        border-right: none;
+    }
+}

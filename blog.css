@@ -1,0 +1,39 @@
+*{
+    background-color: #bb9457;
+}
+
+img{
+    width: 30%;
+    margin: calc(10%/9);
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/9);
+    padding: .50em 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+
+}
+
+h1{
+    background-color: none;
+   border: 5px solid #264653;
+   color: #eae2b7;
+   padding:0.7em;
+   width: 300px;
+   font-size: 1.8em;
+   text-align: center;
+   margin: 20px auto;
+   font-family: 'Courier New';
+   font-weight: lighter; 
+   color:#9a031e;
+
+}
+
+footer{
+    margin: 20px auto;
+    text-align: center;
+}
