@@ -47,7 +47,7 @@ body, html{
 /* Header we call for id's with a # */
 
 #header{
-    background-image:url(../Portfolio/img/buildings.jpg);
+    background-image:url(../portfolio/img/buildings.jpg);
     background-size: cover;
     height: 100%;
     color: white;
